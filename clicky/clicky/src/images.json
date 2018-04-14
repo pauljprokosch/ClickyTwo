@@ -1,0 +1,52 @@
+[
+{
+	"id": 1,
+	"image": "https://media.giphy.com/media/YczRJkWkGKy5i/giphy.gif",
+	"name": "snow board"
+},
+{
+	"id": 2,
+	"image": "https://media.giphy.com/media/3o7bukhUYIhBz9Z2wM/giphy.gif",
+	"name": "pink sky"
+},
+{
+	"id": 3,
+	"image": "https://giphy.com/gifs/trippy-abstract-pi-slices-l2Sq1v7KTyF22A6c0",
+	"name": "purple mountains"
+},
+{
+	"id": 4,
+	"image": "https://media.giphy.com/media/LqbBfKqnrvFkI/giphy.gif",
+	"name": "mountain in distance"
+},
+{
+	"id": 5,
+	"image": "https://media.giphy.com/media/mI3J3e2v97T8Y/giphy.gif",
+	"name": "snowboarding mountain"
+},
+{
+	"id": 6,
+	"image": "https://media.giphy.com/media/l0HlDJBzZ1t2k8zgk/giphy.gif",
+	"name": "biking mountain"
+},
+{
+	"id": 7,
+	"image": "https://media.giphy.com/media/3ohjV4ciVjmnxDqjuM/giphy.gif",
+	"name": "fake mountain"
+},
+{
+	"id": 8,
+	"image": "https://media.giphy.com/media/tyMRynBYmR7EY/giphy.gif",
+	"name": "mountain dew"
+},
+{
+	"id": 9,
+	"image": "https://media.giphy.com/media/14eVhfO8DSivzq/giphy.gif",
+	"name": "travel mountain"
+},
+{
+	"id": 10,
+	"image": "https://media.giphy.com/media/TnDoEoXfT7YoE/giphy.gif",
+	"name": "mountain river"
+}
+]

@@ -1,6 +1,7 @@
-import React from "React";
-import Gif from "../Gif";
+import React ,{Component} from "react";
+//import Gif from "../Gif";
 import gifs from "../../images.json";
+import Container from "../Container"
 
 // If a user selects an image 
 //  If the image has already been clicked on
@@ -14,25 +15,37 @@ import gifs from "../../images.json";
 
 //app, game, gif (keep track of state whether it's been clicked or not)
 
-class Game extends React.Component {
+//1.  Functions for updating score and top score  2. Function for randomizing list of gifs indexes  3. Within gif class set a state if a gif is clicked
+//4. define what the component should return as html as well as how to handle the incoming props
+
+class Game extends Component {
     state = {
     	gifs,
     	score: 0,
     	highScore: 0
     }; 
 	render () {
+			
 		return (
-			<h1>
-			Header One
-			</h1>
-			{
-				this.state.gifs.map((gif)=>  (
-				<Gif
-					id= {gif.id}
-					image = {gif.image}
-					key = {gif.id}
-				)
-			}
-			);
+			<div>
+        <h1>Pauls page</h1>
+			<div>
+					{this.state.gifs.map(item =>(
+			
+				
+				
+					<img src={item.image}/>
+						))}
+				
+			
+			</div>
+
+			</div>
+			
+					
+			)
 	}
 }
+
+
+ export default Game;
